@@ -1,15 +1,23 @@
-let age = 25;
-let year = 2019;
+// String
+let mail = "mrmezan0@gmail.com";
+console.log(mail);
 
-console.log(age, year);
+// String Concatenation
+let firstName = "Akash";
+let lastName = "Khan";
+let fullName = firstName + " " + lastName;
+console.log(fullName);
 
-age = 30;
-console.log(age);
+// Getting characters
+console.log(fullName[4]);
 
-const point = 100;
-// point = 50;
-// const variable couldn't change
-console.log(point);
+// String length
+console.log(fullName.length);
 
-var score = 200;
-console.log(score)
+// String methods
+console.log(fullName.toUpperCase());
+let result = fullName.toLowerCase();
+console.log(result);
+
+let index = mail.indexOf("@");
+console.log(index);
